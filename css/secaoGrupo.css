@@ -1,0 +1,29 @@
+.secaoGrupo {
+  color: #666;
+  text-align: center;
+}
+
+.secaoGrupo-nomes {
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 1.2em 0;
+}
+
+
+.secaoGrupo-img {
+  width: 100%;
+  max-width: 550px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+@media (min-width: 830px) {
+
+  .secaoGrupo-coluna {
+    float: left;
+    text-align: left;
+    width: 40%;
+  }
+
+}
